@@ -29,7 +29,7 @@ Database changed
 QUESTION 1 :-
 
 mysql> create table countries(country_id int,country_name varchar(30),region_id int, primary key(country_id));
-Query OK, 0 rows affected (0.06 sec)
+Query OK, 0 rows affected (0.06 sec);
 
 mysql> show tables;
 +-----------------+
@@ -78,6 +78,7 @@ mysql> select * from countries;
 5 rows in set (0.00 sec)
 
 QUESTION 2 :-
+  
 
 mysql> create table if not exists countries(country_id int,country_name varchar(30),region_id int,primary key(country_id));
 Query OK, 0 rows affected, 1 warning (0.01 sec)
