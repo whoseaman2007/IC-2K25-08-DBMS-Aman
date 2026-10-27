@@ -145,3 +145,7 @@ HAVING COUNT(*) > 10 keeps only department groups with more than ten employee ro
 - `HAVING` filters the completed groups using an aggregate result, such as a count or maximum salary.
 - `COUNT(*)` counts rows; `COUNT(DISTINCT job_id)` counts different non-NULL job IDs.
 - NULL salary values are ignored by `AVG`, `MIN`, `MAX`, and `SUM`. See the [database notes](database-notes.md) for NULL grouping and schema assumptions.
+
+
+
+  
